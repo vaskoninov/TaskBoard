@@ -41,7 +41,7 @@ jobs:
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v2
         with:
-          app-name: TaskBoard84784          # update if your app name differs
+          app-name: TaskBoard98633          # update if your app name differs
           slot-name: production
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: publish
